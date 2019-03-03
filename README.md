@@ -6,8 +6,6 @@
 
 **Dependencies:**
 
->Python2
-
 >sudo apt install python2
 
 **Installation:**
