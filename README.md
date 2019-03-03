@@ -12,6 +12,8 @@
 
 >git clone https://github.com/white-hood/ctftools.git
 
+>If you wanna use the tool anywhere and without the ./ then copy into a bin folder e.g. ~/bin 
+
 **Usage:**
 
 >./ctftools          | normal use
