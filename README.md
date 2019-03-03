@@ -4,17 +4,17 @@
 
 ---
 
-**Dependencies:
+**Dependencies:**
 
 >Python2
 
 >sudo apt install python2
 
-**Installation:
+**Installation:**
 
 >git clone https://github.com/white-hood/ctftools.git
 
-**Usage:
+**Usage:**
 
 >./ctftools          | normal use
 
