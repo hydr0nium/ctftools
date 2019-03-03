@@ -12,7 +12,11 @@
 
 >git clone https://github.com/white-hood/ctftools.git
 
->If you wanna use the tool anywhere and without the ./ then copy into a bin folder e.g. ~/bin 
+>cp .ctftools ~
+
+>cd ~/bin
+
+>ln -s ctftools /path/to/ctftools.py
 
 **Usage:**
 
