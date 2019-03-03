@@ -1,0 +1,4 @@
+Binwalk:
+
+Binwalk is a commandline tool which can be used to analyse binary files for hidden data.
+With the -e flag you can then extract that data to file
