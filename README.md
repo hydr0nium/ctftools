@@ -1,22 +1,25 @@
-#CTF-Tool Database 
-Written by White Hood
+# CTF-Tool Database 
+**Written by White Hood**
+> Twitter: @Wh1teHood
 
-Dependencies:
+---
 
-Python2
+**Dependencies:
 
-sudo apt install python2
+>Python2
 
-Installation:
+>sudo apt install python2
 
-git clone 
+**Installation:
 
-Usage:
+>git clone https://github.com/white-hood/ctftools.git
 
-./ctftools          | normal use
+**Usage:
 
-./ctftools --remove | remove tool from database
+>./ctftools          | normal use
 
-./ctftools --add    | add tool to database
+>./ctftools --remove | remove tool from database
 
-./ctftools --help   | list help menu
+>./ctftools --add    | add tool to database
+
+>./ctftools --help   | list help menu
