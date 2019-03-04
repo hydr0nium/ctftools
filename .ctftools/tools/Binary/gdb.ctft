@@ -1,3 +1,18 @@
 GDB:
 
 GDB or the Gnu Debugger is a debugger for linux binaries.
+
+Installation:
+
+sudo apt install gdb
+
+Usage:
+
+set disassembly-flavor intel | set disassembled language to intel
+break *<address> | sets breakpoint at address
+break <function> | sets breakpoint at function
+info functions | list all functions of the binary
+info registers | prints all the registers to the screen
+info frame | print current stack frame
+si | step one instruction
+ni | step one instruction without following a call
