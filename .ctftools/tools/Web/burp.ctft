@@ -1,1 +1,24 @@
-Burp test
+Burp Suite:
+
+Burp is a web proy to intercept for example http requests to a webserver
+
+Installation for Firefox (but it should differe much in Chrome / others):
+
+Download community edition at: https://portswigger.net/burp
+Run the run burpsuite_community_linux_v<your version>.sh
+Manual proxy configuration in the browser is tedious so FoxyProxy is recommended 
+With the proxy you use localhost on port 8080
+Start burp and go to http://burp
+Click on CA Certificate and download it 
+Now go in Firefox to Preferences/Options -> Privacy and Security -> View Certificates -> Authorites -> Import 
+Finished
+
+Usage:
+
+Start BurpSuite
+Start FoxyProxy if you wanna intercept the traffic
+Use "Intercept" in Burp
+Use "Forward" to forward the page to the browser
+Use "Drop" to drop that package
+...
+
