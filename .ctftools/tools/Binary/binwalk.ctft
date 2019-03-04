@@ -1,4 +1,11 @@
 Binwalk:
 
 Binwalk is a commandline tool which can be used to analyse binary files for hidden data.
-With the -e flag you can then extract that data to file
+
+Installation:
+
+sudo apt install binwalk
+
+Usage:
+binwalk <file> | looks throught the file for certain "key hexvalues" for specific data
+binwalk -e <file> | extracts the found data
