@@ -1,3 +1,25 @@
 Radare2:
 
 Radare2 is a binary debugger.
+
+Installation:
+sudo apt install radare2
+
+Usage:
+r2 -d ./<binary>
+
+In R2:
+aaa | analyse the binary
+afl | list all functions
+s <function/hex address> | moves to address
+v | visual mode
+wa <assembly> | write assembly to current address
+db <function/hex address> | break point at that address
+
+In visual mode:
+p | change visual mode (v then 3 times p for nice visual mode of programm)
+:<command> | enter r2 command in visual mode
+s | step instruction
+S | step instruction without following a call 
+
+
