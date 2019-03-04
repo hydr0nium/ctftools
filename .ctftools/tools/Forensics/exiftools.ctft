@@ -1,3 +1,11 @@
 Exiftools:
 
 Exiftools can view the metadata of a picture
+
+Installation:
+
+sudo apt install exiftool
+
+Usage:
+
+exiftool <image> | shows the metadata of a picture
