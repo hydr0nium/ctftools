@@ -1,3 +1,7 @@
 Ghex:
 
 Ghex is a hex editor used who had guessed it to edit hex values in a file
+
+Installation:
+
+sudo apt install ghex
