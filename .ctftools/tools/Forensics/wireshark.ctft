@@ -1,4 +1,12 @@
 Wireshark:
 
 Wireshark is a package sniffer which can be used to look at the traffic
-of the network. 
+of the network either direct or via a saved file.
+
+Installation:
+
+sudo apt install wireshark
+
+Usage:
+
+wireshark | starts wireshark in GUI 
