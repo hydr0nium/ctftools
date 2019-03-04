@@ -1,3 +1,13 @@
 Hashcat:
 
 Hashcat is hash cracker which uses the gpu for cracking
+
+Installation:
+
+sudo apt install hashcat
+
+Usage:
+
+hashcat -a <number> <hashfile> <wordlist> | choose cracking mode see -> man hashcat
+hashcat -m <number> <hashfile> <wordlist> | give the format of the hash to hashcat see -> man hashcat
+
