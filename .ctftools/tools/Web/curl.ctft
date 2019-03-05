@@ -1,4 +1,11 @@
 Curl:
 
-Curl is a tool to send and receive data.
-It can be used to "curl" a website which gives you the html file of the curled website
+Curl is a tool to send and receive data. You can "curl" a website and so receive the html code of that mentioned site.
+
+Installation:
+
+sudo apt install curl
+
+Usage:
+
+curl <website>
