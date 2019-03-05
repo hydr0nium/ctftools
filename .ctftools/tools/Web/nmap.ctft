@@ -1,4 +1,23 @@
 Nmap:
 
-Nmap is a network scanner/mapper
-It can be used to scan for open ports / hosts
+Nmap is a network scanner/mapper.
+
+Installation:
+
+sudo apt install nmap
+
+Usage:
+
+nmap <options> <ip/domain> 
+nmap -F <ip/domain> | scan for the 100 most common ports
+nmap -oN/-oX/-oG <file> <ip/domain> | Output scan in normal, XML and Grepable format, respectively, to the given filename.
+nmap -oA <file> <ip/domain> | Output scan in all 3 output formats
+nmap -O <ip/domain> | OS detection
+nmap -p<port> <ip/domain> | Scans for specific ports e.g: -p0-80 -p80,443 or just -p80
+nmap -Pn <ip/domain> | dont use a ping test
+nmap -sS <ip/domain> | TCP-SYN scan (default)
+nmap -sU <ip/domain> | Also uses UDP
+nmap -sV <ip/domain> | Version Detection behind found ports
+nmap -T0 to -T5 <ip/domain> | Timing how fast nmap send package T5 = fast , T0 = slow
+nmap -v <ip/domain> | verbose mode 
+...
