@@ -11,7 +11,7 @@ r2 -d ./<binary>
 In R2:
 aaa | analyse the binary
 afl | list all functions
-s <function/hex address> | moves to address
+s <function/hex address> | moves to address/function
 v | visual mode
 wa <assembly> | write assembly to current address
 db <function/hex address> | break point at that address
@@ -22,4 +22,18 @@ p | change visual mode (v then 3 times p for nice visual mode of programm)
 s | step instruction
 S | step instruction without following a call 
 
+Modules:
+r2pm init | initialise the R2 Package Manager
+r2pm update | updating the R2 Package Manager
+
+Retdec Module:
+r2pm -i r2retdec
+See Binary/RetDec on how to install the Retdec decompiler
+
+Usage Retdec in R2:
+r2 ./<binary> | starting Radare without the -d option is nessecary
+aaa | analyse the binary
+s <function/hex address> | moves to address/function
+$dec | decompile the current function
+h | in decompiled view to view help
 

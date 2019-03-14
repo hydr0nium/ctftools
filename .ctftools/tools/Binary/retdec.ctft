@@ -1,0 +1,42 @@
+Retargetable Decompiler:
+
+The retargetable decompiler, short retdec, is a machine code
+decompiler. It only works with 32-bit machine code. It
+supports among others x86 or ARM architecture. It was written by
+the Avast Threat Labs.
+
+--------------Installation--------------
+
+# Installation of all the dependencies: 
+	sudo apt-get install build-essential cmake git perl python3 bison flex libfl-dev autoconf automake libtool pkg-config m4 zlib1g-dev upx doxygen graphviz
+
+# Cloning Retargetable Decompiler from Github:
+	git clone https://github.com/avast-tl/retdec ~/git/
+
+# Compiler RetDec:
+	cd ~/git/retdec
+	mkdir build && cd build
+	cmake .. -DCMAKE_INSTALL_PREFIX=~/bin/retdec
+	make -jN (N is the number of CPU cores to use for parallel build)
+	make install
+
+----------------Usage-----------------
+
+The python files to use are found at ~/bin/retdec/bin/
+
+./retdec-decompiler.py <binary> | decompiles the binary file into C like language. It will be
+				| stored in the <binary>.dsm
+
+
+Extras:
+
+# Install VIM Syntax highlighting:
+	mkdir ~/.vim/syntax/
+	curl https://raw.githubusercontent.com/s3rvac/vim-syntax-retdecdsm/master/syntax/retdecdsm.vim > ~/.vim/syntax/retdecdsm.vim
+
+#Installing Radare2 Module to use RetDec in R2:
+	r2pm init
+	r2pm update
+	r2pm -i r2retdec
+	echo "$HOME/bin/retdec/bin/retdec-decompiler.py" > $HOME/.r2retdec
+	If you wanna read more about see Binary/Radare2

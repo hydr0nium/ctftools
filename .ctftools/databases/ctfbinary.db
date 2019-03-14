@@ -2,3 +2,4 @@ Radare2:radare2.ctft
 GHex:ghex.ctft
 GDB:gdb.ctft
 Binwalk:binwalk.ctft
+RetDec:retdec.ctft
