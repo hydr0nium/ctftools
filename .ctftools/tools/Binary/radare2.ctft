@@ -15,6 +15,8 @@ s <function/hex address> | moves to address/function
 v | visual mode
 wa <assembly> | write assembly to current address
 db <function/hex address> | break point at that address
+dr <register>=<value> | write to register a value
+v! | fancy visual mode
 
 In visual mode:
 p | change visual mode (v then 3 times p for nice visual mode of programm)
