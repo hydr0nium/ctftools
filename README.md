@@ -1,6 +1,6 @@
 # CTF-Tool Database 
 **Written by White Hood**
-> Twitter: @Wh1teHood
+> Twitter: @hydr0nium_
 
 ---
 
