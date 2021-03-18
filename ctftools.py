@@ -1,5 +1,5 @@
 #!/usr/bin/python2
-#Written by WhiteHood
+#Written by Sol
 
 def credits():
 
