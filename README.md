@@ -1,5 +1,4 @@
 # CTF-Tool Database 
-**Written by White Hood**
 > Twitter: @hydr0nium_
 
 ---
