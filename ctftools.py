@@ -3,7 +3,7 @@
 
 def credits():
 
-	print "#"*40 + "\n" +"#                                      #" + "\n"+ "# CTF-Tools Database                   #" + "\n" + "# Written by White Hood                #" + "\n" + "#                                      #" + "\n" + "#"*40    
+	print "#"*40 + "\n" +"#                                      #" + "\n"+ "# CTF-Tools Database                   #" + "\n" + "# Written by Hydr0nium                #" + "\n" + "#                                      #" + "\n" + "#"*40    
 
 
 
